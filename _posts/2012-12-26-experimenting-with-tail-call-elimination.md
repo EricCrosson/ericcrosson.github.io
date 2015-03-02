@@ -29,7 +29,7 @@ My tail call implementation is the same as the example in the first half of this
 
 Running the following, in bash:
 
-b1919c03363d973fcbcc
+{% gist b1919c03363d973fcbcc %}
 
 And the optimized function:
 
