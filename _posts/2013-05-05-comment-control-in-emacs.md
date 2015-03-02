@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Content Control in Emacs
+title: Comment Control in Emacs
 ---
 
 This morning I realized I had not one or two but three(!) key bindings used solely for comment control. Comment manipulation is an important part of daily life, sure, but no single area of editing deserves so much keymap real estate. Converting the most commonly used command for commenting into a *dwim* command freed up real estate in my global keymap, but the real advantage is quicker reactions from the user since less thought goes into selecting the correct text-commenting command.
