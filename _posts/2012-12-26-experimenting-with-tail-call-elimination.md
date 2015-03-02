@@ -9,7 +9,7 @@ One of the great ideas included in this manifest is a method to eliminate most r
 
 Dominus notes most recursive functions have a call stack much like this one:
 
-```
+```python
 call gcd(48, 20)              # Call A
      call gcd(20, 8)          # Call B
      	  call gcd(8, 4)      # Call C
@@ -38,7 +38,7 @@ My tail call implementation is the same as the example in the first half of this
 
 Running the following, in bash:
 
-```
+```bash
 time ./recursion 120 480
 
 real	0m0.154s
@@ -48,7 +48,7 @@ sys	    0m0.000s
 
 And the optimized function:
 
-```
+```bash
 time ./norecursion 120 480
 
 real	0m0.013s
