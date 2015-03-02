@@ -22,7 +22,7 @@ call gcd(48, 20)              # Call A
 
 This code and execution path may satisfy [Euclid's algorithm](http://en.wikipedia.org/wiki/Euclidean_algorithm), but there is one glaring instance of repetition -- the return chain of identical values. Dominus takes advantage of the beautiful, flexible syntax Perl offers with the following example:
 
-https://gist.github.com/f451bbb891572c5fba8e
+{% gist f451bbb891572c5fba8e %}
 
 This provides the same functionality as the recursive method, but without excessive pushes on the stack, or jumps when returning up the rabbit hole.
 
@@ -32,7 +32,7 @@ What is the advantage of using this technique as opposed to old-fashioned, time-
 
 My recursive implementation of Euclid's algorithm is as follows:
 
-https://gist.github.com/8b5dc6a15679f159f7fc
+{% gist 8b5dc6a15679f159f7fc %}
 
 My tail call implementation is the same as the example in the first half of this article.
 
