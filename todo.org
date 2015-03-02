@@ -1,0 +1,4 @@
+* site
+** TODO table of contents
+** TODO migrate wordpress
+** TODO about me
