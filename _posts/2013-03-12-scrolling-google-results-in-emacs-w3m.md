@@ -11,7 +11,7 @@ As my [previous post](http://ericscrosson.wordpress.com/2013/03/08/burying-the-c
 
 2. Memory efficiency- I already have Emacs open.
 
-	When I used a MacBook, my battery life under the best of conditions was a mere 2 hours. (On my ThinkPad x230 I get an easy 12+.) I noticed that Chromium in addition to the operating system consumed 70% or more of available memory. When a computer is continually forced to update its entire supply of volatile memory, battery life understandably tanks. With my MacBook, it became a matter of keeping Chrome closed if I wanted my laptop to last through a single lecture.
+	When my main computing machine was a MacBook my battery life under the best of conditions was a mere 2 hours. (On my ThinkPad x230 I get an easy 12+.) I noticed that Chromium plus the operating system consumed 70% or more of available memory. Updating volatile memory is power-intensive, which explained the poor battery life. Keeping Chromium closed was necessary for my laptop to last through a single lecture.
 
 3. Every page is a buffer.
 
