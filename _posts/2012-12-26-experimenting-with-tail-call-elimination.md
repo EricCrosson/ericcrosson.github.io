@@ -9,16 +9,7 @@ One of the great ideas included in this manifest is a method to eliminate most r
 
 Dominus notes most recursive functions have a call stack much like this one:
 
-```python
-call gcd(48, 20)              # Call A
-     call gcd(20, 8)          # Call B
-     	  call gcd(8, 4)      # Call C
-	       call gcd(4, 0)     # Call D
-	       	    return 4
-	       return 4
-          return 4
-      return 4
-```
+{% gist ead05d4a2e4f8a12e277 %}
 
 This code and execution path may satisfy [Euclid's algorithm](http://en.wikipedia.org/wiki/Euclidean_algorithm), but there is one glaring instance of repetition -- the return chain of identical values. Dominus takes advantage of the beautiful, flexible syntax Perl offers with the following example:
 
@@ -38,23 +29,11 @@ My tail call implementation is the same as the example in the first half of this
 
 Running the following, in bash:
 
-```bash
-time ./recursion 120 480
-
-real	0m0.154s
-user	0m0.009s
-sys	    0m0.000s
-```
+b1919c03363d973fcbcc
 
 And the optimized function:
 
-```bash
-time ./norecursion 120 480
-
-real	0m0.013s
-user	0m0.003s
-sys	    0m0.000s
-```
+{% gist f351b3d4a3cbf66a1e6d %}
 
 Holy wow! With such small arguments too!
 
