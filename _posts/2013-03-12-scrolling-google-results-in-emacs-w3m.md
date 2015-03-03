@@ -15,7 +15,7 @@ As my [previous post](http://ericscrosson.wordpress.com/2013/03/08/burying-the-c
 
 3. Every page is a buffer.
 
-	That is, each page is a [first-class citizen](https://sites.google.com/site/steveyegge2/effective-Emacs). Syntax highlighting, searching, copying, editing-then-copying, copying-then-editing, and more. If you can do it in Emacs, you can now do it in Emacs on the web. Take code evaluation for example, possible straight from the browser (which is really the equivalent of a kid scraping bubble gum off the sidewalk and sticking it in his mouth, but in both situations, convenience is paramount).
+	That is, each page is a [first-class citizen](https://sites.google.com/site/steveyegge2/effective-emacs). Syntax highlighting, searching, copying, editing-then-copying, copying-then-editing, and more. If you can do it in Emacs, you can now do it in Emacs on the web. Take code evaluation for example, possible straight from the browser (which is really the equivalent of a kid scraping bubble gum off the sidewalk and sticking it in his mouth, but in both situations, convenience is paramount).
 
 4. Minimal bandwidth requirements.
 
