@@ -18,11 +18,11 @@ Before I posted this, I looked at the duplicated code with disdain. I tried to d
 I noticed that Paul Graham, the author of a [captivating article](http://www.paulgraham.com/avg.html) I was reading, had mentioned writing a book on [Common Lisp](http://www.amazon.com/ANSI-Common-LISP-Paul-Graham/dp/0133708756). How can that not be a sign? I obtained a copy of his book and shortly came across this passage.
 
 > Donald Knuth called his classic series The Art of Computer Programming. In his Turing Award Lecture, he explained that this title was a conscious choice—that what drew him to programming was "the possibility of writing beautiful programs."
-
+>
 > Like architecture, programming has elements of both art and science. A program has to live up to mathematical truth in the same way that a building has to live up to the laws of physics. But the architect's aim is not simply to make a building that doesn't fall down. Almost always the real aim is to make something beautiful.
-
+>
 > Some programmers feel, like Donald Knuth, that this is also the real aim of programming. Almost all Lisp hackers do. The spirit of Lisp hacking can be expressed in two sentences. Programming should be fun. Programs should be beautiful. That's the spirit I have tried to convey in this book.
-
+>
 > Paul Graham
 
 This appeals to me, but I will elaborate on ideas in a different post. For now, this is what I've learned from ANSI Common Lisp. Lisp has the ability, like some other languages, to write code that will be expanded before evaluation. These snippets are macros, and add another layer of abstraction to Lisp. Instead of explicitly writing code three times, I expand the actions I want to perform with one common macro. The result looks something like this:
