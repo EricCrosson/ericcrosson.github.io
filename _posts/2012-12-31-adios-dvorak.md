@@ -29,6 +29,6 @@ This appeals to me, but I will elaborate on ideas in a different post. For now, 
 
 {% gist ea5a6f5df84ad897216b %}
 
-The macro churns out code defined by the macro's parameters, which in this case allow for enough flexibility to throw in the "-&gt;" symbol. I've been looking for a nice way to do this, since my initial attemps with abbrev-mode ended in failure. This solution is scalable and personal enough to find a steady home in my config files. Even though it doesn't look like it, this code can still fit on one line and is 80-char compliant, so it comes out to be shorter and more extensible than the former solution.
+The macro churns out code defined by the macro's parameters, which in this case allow for enough flexibility to throw in the "-&gt;" symbol. I've been looking for a nice way to do this, since my initial attemps with abbrev-mode ended in failure. This solution is scalable and personal enough to find a steady home in my config files. Since I have the ability to define arbitrary strings to insert and distances to move, this expression is shorter and more extensible than the former solution.
 
 * Well, that's not *exactly* verbatim from my .emacs, but we'll get to that in a [later post](http://todo.org).
