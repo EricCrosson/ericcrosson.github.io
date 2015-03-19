@@ -13,4 +13,9 @@ No longer is the `*scratch*` buffer the sole recipient of
 contains a list of regexps that will prevent any matching buffer from
 dying during an invocation to kill-buffer.
 
-More features will be released shortly, as they are developed.
+The variable `unkillable-scratch-behavior` defines the action taken
+when a kill is attempted on a buffer matching one or more of the
+regexp's in `unkillable-buffers` A value of `'do-nothing` disallows
+the buffer from being killed; `'bury` buries the buffer instead of
+killing it; and `'kill` kills the buffer (which is the same as
+disabling the mode entirely).
