@@ -1,4 +1,5 @@
 * site
 ** TODO table of contents
-** TODO migrate wordpress
+** DONE migrate wordpress
 ** TODO about me
+** TODO personalize 404 not found
